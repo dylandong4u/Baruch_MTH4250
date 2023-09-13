@@ -27,7 +27,7 @@ def ExtendedEucAlg(a,b):
 
     # Step 3: determine positive and negative v and u
 
-    if q[-2] // 2 == 0: # if the 2nd to last row is even # quotient, then -v and u
+    if len(q) // 2 == 0: # even # quotient, then -v and u
         v = (-1) * row_1[-2]
         u = row_2[-2]
     
